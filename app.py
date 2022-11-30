@@ -6,16 +6,16 @@ def welcome():
     return "Welcome"
 
 def main():
-  st.title("Subtraction")
+  st.title("Addition")
   html_temp = """
   <div style="background-color:tomato;padding:10px">
-  <h2 style="color:white;text-align:center;">Subtraction of 2 numbers using Streamlit</h2>
+  <h2 style="color:white;text-align:center;">Addition of 2 numbers using Streamlit</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
   num1 = st.number_input("Number 1")
   num2 = st.number_input("Number 2")
-  result = num1 - num2
+  result = num1 + num2
   st.success('The output is {}'.format(result))
   if st.button("Made By"):
       st.text("RION DSILVA")
