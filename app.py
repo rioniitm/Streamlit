@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 def welcome():
-    return "Welcome All"
+    return "Welcome"
 
 def main():
   st.title("Subtraction")
@@ -18,8 +18,8 @@ def main():
   result = num1 - num2
   st.success('The output is {}'.format(result))
   if st.button("Made By"):
-      st.text("Parth Bansal")
-      st.text("21f3000805")
+      st.text("RION DSILVA")
+      st.text("21f1000930")
 
 if __name__=='__main__':
   main()
